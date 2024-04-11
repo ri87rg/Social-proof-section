@@ -1,0 +1,101 @@
+:root {
+  /* Primary */
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  /* natural */
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "League Spartan";
+  /* Weights: 400, 500, 700 */
+}
+.page .container {
+  padding: 70px 15px;
+  margin: auto;
+  width: 900px;
+}
+.page .container .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page .container .content .explain {
+  display: inline-block;
+  width: 350px;
+}
+.page .container .content .explain h1 {
+  font-size: 40px;
+  color: var(--Very-Dark-Magenta);
+  line-height: 35px;
+}
+.page .container .content .explain p {
+  font-size: 15px;
+  color: var(--Dark-Grayish-Magenta);
+  line-height: 20px;
+}
+
+.page .container .content .ratting-section {
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: auto;
+}
+.page .container .content .ratting-section .rate {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: var(--Light-Grayish-Magenta);
+  width: fit-content;
+}
+.page .container .content .ratting-section .rate2 {
+  margin-left: 30px;
+}
+.page .container .content .ratting-section .rate3 {
+  margin-left: calc(30px * 2);
+}
+.page .container .content .ratting-section .rate .services {
+  margin-left: 20px;
+  font-weight: 700;
+  color: var(--Very-Dark-Magenta);
+}
+.page .container .content .review-cards {
+  display: flex;
+  margin-top: 35px;
+}
+.page .container .content .review-cards .card {
+  padding: 20px;
+  background-color: var(--Very-Dark-Magenta);
+  width: 235px;
+  border-radius: 5px;
+  margin: 10px;
+  height: fit-content;
+}
+.page .container .content .review-cards .card .user-info img {
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+}
+.page .container .content .review-cards .card .user-info .username {
+  display: inline-block;
+  margin-left: 20px;
+  transform: translateY(-10px);
+}
+.page .container .content .review-cards .card .user-info .username .name {
+  color: var(--White);
+  font-size: 15px;
+}
+.page
+  .container
+  .content
+  .review-cards
+  .card
+  .user-info
+  .username
+  .account-verification {
+  color: var(--Soft-Pink);
+  font-size: 15px;
+}
+.page .container .content .review-cards .card .comment {
+  color: var(--White);
+  font-size: 15px;
+}
